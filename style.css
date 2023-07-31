@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Wendy+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid blueviolet; */
+    transition: ease-in-out 1s;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 63px; */
+    height: 25px;
+}
+body{
+    background: url(assets/bg.png), lightgray 50% / cover no-repeat;
+    
+}
+section{
+    
+    margin: 21px 19px;
+    
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.head_1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-self: center;
+    display: none;
+}
+.head_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-self: center;
+}
+.main{
+    font-weight: 900
+}
+.view1{
+    
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /* flex-wrap: wrap; */
+    margin: 30px;
+    /* width: 319px; */
+    gap: 40px;
+    flex-shrink: 0;
+
+}
+.miss_head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #642C99;
+    font-family: Wendy One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.Miss{
+
+color: #642C99;
+font-family: Wendy One;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Misstext{
+    
+    color: #642C99;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+.Missbutton{
+    border-radius: 8px;
+background: #642C99;
+color: white;
+
+width: 206px;
+height: 43px;
+flex-shrink: 0;
+}
+.missimage{
+    background-image: url('assets/image\ 56.png');
+    width: 266px;
+        height: 356px;
+        flex-shrink: 0;
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin: 0px 10px;
+}
+.view2{
+    
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   /* flex-wrap: wrap; */
+   margin: 30px;
+   /* width: 319px; */
+   gap: 40px;
+   flex-shrink: 0;
+   
+
+}
+.simple_head{
+    max-width: 500px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   color: #642C99;
+   font-family: Wendy One;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+
+}
+.Simple{
+
+color: #642C99;
+font-family: Wendy One;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Simpletext{
+   
+   color: #642C99;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+.Simplebutton{
+   border-radius: 8px;
+background: #642C99;
+color: white;
+
+width: 206px;
+height: 43px;
+flex-shrink: 0;
+}
+.simpleimage{
+   /* background-image: url('assets/image\ 57.png'); */
+   width: 50vw;
+    height: 64vw;
+    max-width: 400px;
+    max-height: 470px;
+    flex-shrink: 0;
+   flex-shrink: 0;
+   
+   margin: 0px 10px;
+}
+.view3{
+    
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+   align-items: center; 
+   /* flex-wrap: wrap; */
+   margin: 120px 40px;
+   /* width: 319px; */
+   gap: 60px;
+   flex-shrink: 0;
+   flex-wrap: wrap;
+   
+
+}
+.cardview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap : 100px
+}
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* min-width: 319px; */
+
+}
+.cardimage{
+    width: 182px;
+height: 208px;
+flex-shrink: 0;
+}
+.card_name{
+    color: #642C99;
+text-align: center;
+font-family: Wendy One;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card_descr{
+    color: #642C99;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+width: 303px;
+height: 40px;
+flex-shrink: 0;
+}
+.card-button1{
+    border-radius: 8px;
+border: 2px solid #642C99;
+    color: #642C99;
+font-family: Avenir;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+padding: 5px;
+}
+.card-button2{
+    border-radius: 8px;
+    background: #642C99;
+    padding: 5px 50px;
+    color: #FBFAC9;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.view4{
+    
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-end; 
+   /* flex-wrap: wrap; */
+   margin: 120px 40px;
+   /* width: 319px; */
+   
+   flex-shrink: 0;
+   flex-wrap: wrap;
+   gap: 10px
+   
+
+}
+.view4image{
+    display: flex;
+        
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin: 0px 10px;
+    width: 24vw;
+    height: 18vw;
+    min-width: 248px;
+    min-height: 340px;
+    max-width: 494px;
+    max-height: 679px;
+
+
+    
+    }
+    .simple_head2{
+      
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       color: #642C99;
+       font-family: Wendy One;
+       font-size: 60px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+    
+    }
+    .f_text1{
+        color: #FDEFD1;
+        font-family: Wendy One;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .f_text2{
+        color: #FDEFD1;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 166.667% */
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+     }
+     .footerp{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+         }
+     .card-button22{
+        border-radius: 8px;
+        background: #642C99;
+        padding: 8px 145px;
+        color: #FBFAC9;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline;
+    
+    height: 43px;
+    flex-shrink: 0;
+  
+    }
+    .buttoncontainer2{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .card-button11{
+        border-radius: 8px;
+    border: 2px solid #642C99;
+        color: #642C99;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 170px;
+    }
+    .footer_end{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .end_sub{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+@media screen and (min-width: 960px) {
+    footer{
+        gap: 150px;
+        justify-content: space-around;
+    }
+    section{
+        margin: 29px 39px;
+        
+    }
+    body{
+        background: url(assets/bg\ \(1\).png), lightgray 50% / cover no-repeat;
+        
+    }
+    .simple_head2{
+      
+       max-width: 550px;
+     
+     }
+     .card-button11{
+        
+    padding: 5px;
+    }
+    .footerp{
+        justify-content: space-between;
+         }
+
+    
+
+    .missimage{
+        background-image: url('assets/image\ 55.png');
+        width: 365px;
+        height: 716px;
+        flex-shrink: 0;
+        align-self: center;
+        margin: 0;
+    }
+    .view1{
+        flex-direction: row;
+    }
+    .view4{
+        flex-direction: row;
+        flex-wrap:nowrap;
+        align-items: center; 
+        gap: 40px;
+    }
+    .head_2{
+        display: none;
+    }
+    .head_1{
+        display: flex;
+    }
+    .Miss{
+        font-size: 100px;
+    }
+    .view2{
+        flex-direction: row-reverse; 
+        gap: 100px;
+       }
+    .Simple{
+        
+        width: 661px;
+        height: 177px;
+        flex-shrink: 0;
+        font-size: 70px;
+    }
+    .footer_end{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    section{
+        margin: 29px 43px;
+        
+    }
+    body{
+        background: url(assets/bg\ 1.png), lightgray 50% / cover no-repeat;
+        
+    }
+    .missimage{
+        background: url(assets/image95.png);
+        width: 532px;
+        height: 711px;
+        flex-shrink: 0;
+        margin: 0;
+    }
+    .Miss{
+        font-size: 120px;
+    }
+    .view2{
+        
+        gap: 200px;
+       }
+    .Simple{
+        font-size: 90px;
+    }
+    
+   
+    
+    
+  }
+
+
+  
+
+
+
+
