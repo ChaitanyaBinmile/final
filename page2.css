@@ -16,12 +16,14 @@ a{
     height: 25px;
 }
 body{
-    background: url(assets/bg.png), lightgray 50% / cover no-repeat;
+    background: url(assets/image\ 94.png), lightgray 50% / cover no-repeat;
     
 }
 section{
-    
+    display: flex;
+    flex-direction: column;
     margin: 21px 19px;
+    gap: 100px;
     
 }
 header{
@@ -153,6 +155,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.Simple4{
+
+    color: #642C99;
+    font-family: Wendy One;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
 .Simpletext{
    
    color: #642C99;
@@ -273,10 +284,10 @@ text-transform: uppercase;
     
     display: flex;
     flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
    align-items: flex-end; 
    /* flex-wrap: wrap; */
-   margin: 120px 40px;
+   /* margin: 120px 40px; */
    /* width: 319px; */
    
    flex-shrink: 0;
@@ -287,7 +298,7 @@ text-transform: uppercase;
 }
 .view4image{
     display: flex;
-        
+    
     flex-shrink: 0;
     align-self: flex-end;
     margin: 0px 10px;
@@ -301,15 +312,6 @@ text-transform: uppercase;
 
     
     }
-    .Simple2{
-
-        color: #642C99;
-        font-family: Wendy One;
-        font-size: 52px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        }
     .simple_head2{
       
        display: flex;
@@ -399,6 +401,60 @@ text-transform: uppercase;
         flex-wrap: wrap;
         gap: 20px;
     }
+    .view5{
+    
+        display: flex;
+        flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start; 
+      padding: 10px;
+       /* margin: 120px 40px; */
+       /* width: 319px; */
+       
+       flex-shrink: 0;
+       flex-wrap: wrap;
+       gap: 10px
+       
+    
+    }
+    .simple_head3{
+      
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       color: #642C99;
+       font-family: Wendy One;
+       font-size: 60px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       padding-top: 10px;
+    
+    }
+.view4image3{
+    display: flex;
+    
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin: 0px 10px;
+    width: 100%;
+
+
+
+    
+    }
+.view4image4{
+    display: flex;
+    
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin: 0px 10px;
+    width: 186px;
+height: 323px;
+flex-shrink: 0;
+    background-image: url(assets/image\ 77.png);  
+    background-repeat: no-repeat;
+    }
     
 @media screen and (min-width: 365px) {
     .view3{
@@ -407,6 +463,20 @@ text-transform: uppercase;
 }
 
 @media screen and (min-width: 960px) {
+    .simple_head3{
+      
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #642C99;
+        font-family: Wendy One;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 50px;
+     
+     }
     footer{
         gap: 150px;
         justify-content: space-around;
@@ -416,7 +486,7 @@ text-transform: uppercase;
         
     }
     body{
-        background: url(assets/bg\ \(1\).png), lightgray 50% / cover no-repeat;
+        background: url(assets/bg\ 2.png), lightgray 50% / cover no-repeat;
         
     }
     .simple_head2{
@@ -471,12 +541,28 @@ text-transform: uppercase;
         flex-shrink: 0;
         font-size: 70px;
     }
+    .Simple4{
+        
+       
+        flex-shrink: 0;
+        font-size: 70px;
+    }
     .footer_end{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 20px;
     }
+    .view4image{
+        padding-top: 200px;
+    }
+    .view4image4{
+        
+        background-image: url(assets/image\ 67.png);  
+        width: 283px;
+        height: 699px;
+        flex-shrink: 0;
+        }
     
 }
 
@@ -486,7 +572,7 @@ text-transform: uppercase;
         
     }
     body{
-        background: url(assets/bg\ 1.png), lightgray 50% / cover no-repeat;
+        background: url(assets/image\ 90.png), lightgray 50% / cover no-repeat;
         
     }
     .missimage{
@@ -506,11 +592,24 @@ text-transform: uppercase;
     .Simple{
         font-size: 90px;
     }
-    .Simple2{
-        font-size: 120px;
+    .Simple4{
+        font-size: 90px;
     }
+    .view4image4{
+        
+       
+        width: 353px;
+        height: 736px;
+        flex-shrink: 0;
+        }
+    
+   
+    
     
   }
+
+
+  
 
 
 
