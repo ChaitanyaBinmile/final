@@ -400,6 +400,7 @@ text-transform: uppercase;
         gap: 20px;
     }
     
+    
 @media screen and (min-width: 365px) {
     .view3{
         gap: 150px;
