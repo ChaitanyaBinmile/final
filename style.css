@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 2px solid blueviolet;
+    
     transition: ease-in-out 1s;
     
 }
@@ -17,6 +17,7 @@ a{
 }
 body{
     background: url(assets/bg.png), lightgray 50% / cover no-repeat;
+    
     
 }
 section{
@@ -340,15 +341,16 @@ text-transform: uppercase;
         line-height: 30px; /* 166.667% */
     }
     footer{
+        padding-top: 30px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 30px;
      }
      .footerp{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+       
         gap: 30px;
          }
      .card-button22{
@@ -384,8 +386,8 @@ text-transform: uppercase;
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
-    padding: 10px 44vw;
-    max-width: 250px;
+    height: 43px;
+    width: 390px;
     }
     .footer_end{
         display: flex;
@@ -399,6 +401,21 @@ text-transform: uppercase;
         flex-wrap: wrap;
         gap: 20px;
     }
+    .end_sub2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .end_sub1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .hide{
+        display: none;
+    }
     
     
 @media screen and (min-width: 365px) {
@@ -406,10 +423,31 @@ text-transform: uppercase;
         gap: 150px;
     }
 }
+@media screen and (min-width: 826px) {
+    .card-button11{
+        
+        width: 100px;
+        }
+}
+
 
 @media screen and (min-width: 960px) {
     footer{
-        gap: 150px;
+        flex-wrap: wrap;
+        flex-direction: row;}
+    .hide{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .end_sub{
+        display: none;
+    }
+    .end_sub1{
+        display: none;
+    }
+    footer{
+        
         justify-content: space-around;
     }
     section{
@@ -425,10 +463,7 @@ text-transform: uppercase;
        max-width: 550px;
      
      }
-     .card-button11{
-        
-    padding: 5px;
-    }
+     
     .footerp{
         justify-content: space-between;
          }
@@ -467,8 +502,8 @@ text-transform: uppercase;
        }
     .Simple{
         
-        width: 661px;
-        height: 177px;
+        width: 570px;
+        
         flex-shrink: 0;
         font-size: 70px;
     }
